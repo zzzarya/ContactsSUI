@@ -8,6 +8,8 @@
 import Foundation
 
 class DataManager {
+    static let shared = DataManager()
+    
     let names = ["Camille", "Hugo", "Ayla", "Martin", "Jason",
                 "Elise", "Jane", "Alessandra", "Zayn", "Hadley"]
     
@@ -24,4 +26,6 @@ class DataManager {
                   "travis.gleason@cole.com", "chadd05@yahoo.com",
                   "seth.wilkinson@gmail.com", "cschaden@yahoo.com",
                   "louie.gaylord@hotmail.com", "niko.bins@gleason.com"]
+    
+    init() {}
 }

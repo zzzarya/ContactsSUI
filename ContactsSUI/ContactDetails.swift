@@ -19,6 +19,7 @@ struct ContactDetails: View {
                     .frame(width: 100, height: 100)
                 Spacer()
             }
+            
             SectionView(imageName: "phone", contacntInfo: contact.number)
             SectionView(imageName: "tray", contacntInfo: contact.email)
         }

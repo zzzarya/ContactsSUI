@@ -21,7 +21,7 @@ struct Person: Identifiable {
 
 extension Person {
    static func getPersonList() -> [Person] {
-       let personInfo = DataManager()
+       let personInfo = DataManager.shared
        
         let names = personInfo.names.shuffled()
         let surnames = personInfo.surnames.shuffled()
